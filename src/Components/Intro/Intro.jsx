@@ -48,7 +48,6 @@ const Intro = () => {
                 alt=""/>
 
 
-
                 <motion.div
                 className='floating-div'
                 initial={{right:'-20%'}}
