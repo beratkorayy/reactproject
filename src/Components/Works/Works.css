@@ -1,8 +1,8 @@
 .works {
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 90vh;
-    margin-top: 15rem;
+    height: 70vh;
+    margin-top: 8rem;
 }
 
 /* right side */
@@ -20,10 +20,13 @@
     box-shadow: var(--smboxShadow);
     top: 2rem;
     background: white;
+    margin-left: 6rem;
+
 }
 
 .w-mainCircle>* {
     position: absolute;
+
 }
 
 .w-mainCircle> :nth-child(1) {
@@ -79,12 +82,12 @@
 
 .blueCircle{
     background: #1949B8;
-    left: 18rem;
+    left: 26rem;
     top: 0rem;
 }
 
 .yellowCircle {
     background: #F5C32C;
-    left: 18rem;
+    left: 26rem;
     top: 8rem;
 }

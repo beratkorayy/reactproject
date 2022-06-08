@@ -35,7 +35,7 @@ function Services() {
             <div className="cards">
                 <motion.div 
                 whileInView={{left: '36rem'}}
-                initial={{right: '20%'}}
+                initial={{right: '25%'}}
                 transition={transition}
                 style={{ top: "-7rem", left: "60rem" }}>
                     <Card

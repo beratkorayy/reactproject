@@ -40,8 +40,8 @@ const Intro = () => {
                 <img src={Vector2} alt="" />
                 <img src={boy} alt="" />
                 <motion.img 
-                initial= {{top:'7%', left: '-36%'}}
-                whileInView ={{top:'7%',left: '-14%'}}
+                initial= {{top:'15%', left: '-28%'}}
+                whileInView ={{top:'15%',left: '-8%'}}
                 transition={transition}
                 src={glassesimoji}
                 alt=""/>
@@ -49,7 +49,7 @@ const Intro = () => {
 
 
                 <motion.div
-                initial={{ right:'-20%'}}
+                initial={{right:'-20%'}}
                 whileInView={{right: '10%'}}
                 transition={transition}>
                     <FloatingDiv image={crown} txt1='Web' txt2='Developer' />
@@ -59,8 +59,8 @@ const Intro = () => {
 
 
                 <motion.div
-                initial={{top: '63%', left:'-17.5%'}}
-                whileInView={{top: '63%', left: '7.5%'}}
+                initial={{top: '66.5%', left:'-27.5%'}}
+                whileInView={{top: '66.5%', left: '11.5%'}}
                 transition={transition}>
                     <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award' />
                 </motion.div>
