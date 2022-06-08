@@ -53,7 +53,7 @@ function Services() {
                     <Card
                         emoji={Glasses}
                         heading={"Developer"}
-                        detail={"Html, Css, JavaScript, React"}
+                        detail={"Html, Css, JavaScript, React, Figma, Sketch, Photoshop, Adobe, Adobe xd"}
                     />
                 </motion.div>
                 {/* 3rd */}

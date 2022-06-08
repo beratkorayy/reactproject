@@ -91,3 +91,18 @@
     left: 26rem;
     top: 8rem;
 }
+
+@media screen and (max-width: 480px) {
+    .works{
+        flex-direction: column;
+        height: 55rem;
+        padding: 0;
+        gap: 5rem;        
+    }
+    .w-mainCircle{
+        position: static;
+    }
+    .w-backCircle{
+        left: 8rem !important;
+    }
+}

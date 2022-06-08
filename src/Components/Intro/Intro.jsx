@@ -40,6 +40,7 @@ const Intro = () => {
                 <img src={Vector2} alt="" />
                 <img src={boy} alt="" />
                 <motion.img 
+                className='floating-div'
                 initial= {{top:'15%', left: '-28%'}}
                 whileInView ={{top:'15%',left: '-8%'}}
                 transition={transition}
@@ -49,6 +50,7 @@ const Intro = () => {
 
 
                 <motion.div
+                className='floating-div'
                 initial={{right:'-20%'}}
                 whileInView={{right: '10%'}}
                 transition={transition}>
@@ -59,6 +61,7 @@ const Intro = () => {
 
 
                 <motion.div
+                className='floating-div'
                 initial={{top: '66.5%', left:'-27.5%'}}
                 whileInView={{top: '66.5%', left: '11.5%'}}
                 transition={transition}>
