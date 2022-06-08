@@ -20,7 +20,8 @@
 .i-name>:nth-child(1) {
     color: var(--black);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 5rem;
+    margin-top: 5rem;
 }
 
 .i-right {
@@ -36,7 +37,8 @@
 
 .i-name>:nth-child(3) {
     font-weight: 100;
-    font-size: 19;
+    font-size: 20px;
+    width: 85%;
     color: var(--gray);
     margin-top: 10px;
 }
@@ -74,25 +76,26 @@
 }
 
 .i-right>:nth-child(1) {
-    transform: scale(0.69);
-    left: -2%;
-    top: -6%;
+    transform: scale(0.9);
+    left: 3%;
+    top: 3%;
 }
 
 .i-right>:nth-child(2) {
-    top: -4.6rem;
-    transform: scale(0.67);
-    left: 1rem;
+    top: -0.6rem;
+    transform: scale(0.8);
+    left: 8%;
 }
 
 .i-right>:nth-child(3) {
-    transform: scale(1.4);
-    left: 28%;
+    transform: scale(1.63);
+    left: 32.5%;
+    top: 12%;
 }
 
 .i-right>:nth-child(4) {
     transform: scale(0.82);
-    top: -19%;
+    top: 0%;
     left: -24%;
     border-radius: 50%;
     padding: 0;

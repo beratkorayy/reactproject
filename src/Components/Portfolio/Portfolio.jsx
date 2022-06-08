@@ -6,12 +6,18 @@ import Ecommerce from "../../img/ecommerce.png"
 import HOC from "../../img/hoc.png"
 import MusicApp from "../../img/musicapp.png"
 import 'swiper/css'
+import { themeContext } from '../../Context';
+import { useContext } from 'react'
 
 const Portfolio = () => {
+  
+  const theme = useContext(themeContext)
+  const darkMode = theme.state.darkMode
+  
   return (
-    <div className="portfolio">
+    <div className="portfolio" id='Portfolio'>
       {/* heading */}
-      <span>Recent Project</span>
+      <span style={{color: darkMode? 'white': ''}}>Recent Project</span>
       <span>Portfolio</span>
       {/* Swiper */}
       <Swiper spaceBetween={30} slidesPerView={3} grabCursor={true} className='portfolio-slider'>
@@ -24,7 +30,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide> 
           <img src={HOC} alt="" />
         </SwiperSlide>
       </Swiper>
